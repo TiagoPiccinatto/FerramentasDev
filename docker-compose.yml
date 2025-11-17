@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  blazorapp:
+    image: blazorapp:latest
+    container_name: blazorapp
+    restart: always
+    ports:
+      - "5001:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+    volumes:
+      - ./appsettings.Production.json:/app/appsettings.Production.json

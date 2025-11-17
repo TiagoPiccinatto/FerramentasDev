@@ -74,7 +74,6 @@ Properties/PublishProfiles/
 
 # Ambiente docker
 *.dockerignore
-docker-compose*.yml
 **/docker-compose.override.yml
 
 # Certificados
