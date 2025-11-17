@@ -1,0 +1,110 @@
+# ===============================
+#   .NET / Blazor / Visual Studio
+# ===============================
+
+# Compilados / build
+bin/
+obj/
+out/
+dist/
+build/
+Debug/
+Release/
+
+# Publicações
+**/publish/
+*.pubxml
+*.pubxml.user
+appsettings.Production.json
+
+# Logs
+*.log
+*.tlog
+*.svclog
+
+# Cache
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.cache
+*.tmp
+
+# Secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Certificados locais (HTTPS dev)
+*.pfx
+*.p12
+
+# Dados temporários do Blazor
+wwwroot/_framework/
+wwwroot/_content/
+wwwroot/css/compiled/
+wwwroot/build/
+
+# Node (caso use Tailwind, npm etc.)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Static Web Assets cache
+obj/**/staticwebassets/
+wwwroot/*/staticwebassets/
+
+# Rider / Jetbrains
+.idea/
+*.DotSettings.user
+
+# Arquivos gerados
+*.DS_Store
+Thumbs.db
+
+# Backup do Visual Studio
+*.bak
+
+# Publish profiles
+Properties/PublishProfiles/
+
+# Ambiente docker
+*.dockerignore
+docker-compose*.yml
+**/docker-compose.override.yml
+
+# Certificados
+*.crt
+*.key
+
+# Arquivos do Launch
+launchSettings.json
+
+# ===============================
+#   Blazor WebAssembly específicos
+# ===============================
+
+# Service worker gerado
+wwwroot/service-worker.js
+wwwroot/service-worker-assets.js
+
+# Manifest gerado
+wwwroot/manifest*.json
+
+# Arquivos do build WASM
+wwwroot/_framework/*
+wwwroot/_content/*
+
+# ===============================
+#   Outros
+# ===============================
+
+# Ferramentas diversas
+*.swp
+*.bak
+*.orig
+*.rej
